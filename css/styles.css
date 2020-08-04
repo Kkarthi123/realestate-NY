@@ -1,0 +1,132 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3 {
+    font-weight: 300;
+}
+.bg-success{
+    background-color: #71b100 !important;
+}
+@media(min-width: 768px){
+    .top-bar.bg-success{
+        background-color: transparent !important;
+    }
+    .header{
+        position: relative;
+    }
+    .header .top-bar {
+        position: absolute;
+        z-index: 100;
+    }
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.navbar-brand span{
+    font-weight: 900;
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: white !important;
+    font-size: .8rem !important;
+}
+.dropdown-menu{
+    background-color: #393a38 !important;
+    border: none;
+}
+.dropdown-menu .dropdown-item{
+    text-transform: uppercase;
+    color: white !important;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e08709;
+}
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+.info-block h4 {
+    font-size: 1.2rem;
+}
+.info-block .price {
+    font-size: 1.4rem;
+}
+.btn-warning {
+    background-color: #e08709;
+    border-color: #e08709;
+    color: #ffffff;
+    font-weight: 700;
+}
+.About h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.properties .price{
+    font-size: 1.2rem;
+    color: #71b100;
+}
+.properties .card-description img{
+    margin-right: .7rem;
+}
+.find-house{
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.find-house .row{
+    height: 25rem;
+}
+.find-house h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.entry h3::after{
+    content: " ";
+    display: block;
+    width: 80%;
+    height: 4px;
+    background-color: #71b100;
+    margin-top: 10px;
+    margin-left: 34px;
+}
+.entry .meta span{
+    color: #e08709;
+}
+.entry .btn-success{
+    background-color: #71b100;
+    font-weight: 700;
+    border: none;
+}
+.entry .btn-success:hover{
+    background-color: #609602;
+    color: black;
+}
+.testimonials{
+    background-color: #71b100;
+}
+.testimonials .text{
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+.testimonials .text strong{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.testimonials span {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.final.bg-dark {
+    background-color: #333333!important;
+}
+.final .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+}
